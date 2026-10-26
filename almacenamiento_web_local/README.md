@@ -68,12 +68,3 @@ Crea una página que permita:
 5. Borrar todas las tareas.
 6. Mostrar un mensaje cuando no haya tareas.
 
-**Requisitos:** usa `localStorage`, `JSON.stringify()` y `JSON.parse()`. Organiza el código en HTML, CSS y JavaScript.
-
-## Seguridad
-
-No guardes contraseñas ni información sensible en LocalStorage o SessionStorage. Los datos pueden ser consultados o modificados por scripts que se ejecuten en el mismo origen y el usuario puede eliminarlos.
-
-## Conclusión
-
-El almacenamiento web permite que una página recuerde información sencilla en el navegador. LocalStorage conserva los datos entre visitas y SessionStorage los mantiene durante una sesión de pestaña.
